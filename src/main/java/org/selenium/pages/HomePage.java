@@ -13,5 +13,17 @@ public class HomePage extends ProjectSpecificMethods{
 		click(ele);
 		return new LoginPage();
 	}
+	
+	public HomePage verifyHomePageTitle(String pageTitle)
+	{
+		verifyTitle(pageTitle);
+		return this;
+	}
 
+	public MyHomePage clickCRMSFALink()
+	{
+		ele=locateElement("linktext","CRM/SFA");
+		click(ele);
+		return new MyHomePage();
+	}
 }

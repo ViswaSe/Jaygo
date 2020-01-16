@@ -21,7 +21,6 @@ public class ExcelUtils extends SeMethods{
 		
 		try 
 		{
-			System.out.println(fileName);
 			wb=new XSSFWorkbook("./data/"+fileName+".xlsx");
 			sheet=wb.getSheetAt(0);
 			
@@ -37,7 +36,6 @@ public class ExcelUtils extends SeMethods{
 				for(int j=0;j<cols;j++)
 				{
 					text=row.getCell(j).getStringCellValue();
-					System.out.print(text+" ");
 					
 					if(!(text.equals("")))
 					{

@@ -48,7 +48,7 @@ public abstract class Reporter {
 	@BeforeSuite
 	public void start()
 	{
-		html=new ExtentHtmlReporter("./reports/result.html");
+		html=new ExtentHtmlReporter("./reports/AccountModule.html");
 		html.setAppendExisting(true);
 		extent=new ExtentReports();
 		extent.attachReporter(html);
