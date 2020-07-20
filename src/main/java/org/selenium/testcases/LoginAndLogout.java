@@ -19,6 +19,8 @@ public class LoginAndLogout extends ProjectSpecificMethods{
 		testCaseDescription="This test case is to validate the login and logout functionality";
 		browser="chrome";
 		url="http://leaftaps.com/opentaps/control/main";
+		author="Vishveshwar";
+		category="Sanity";
 	}
 	
 	@Test(dataProvider="fetchData")

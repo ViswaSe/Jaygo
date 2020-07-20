@@ -10,9 +10,9 @@ public class ProjectSpecificMethods extends SeMethods {
 	@BeforeMethod
 	public void startApplication()
 	{
-		startApp(browser, url);
-		node=suiteTest.createNode(testCaseName, testCaseDescription);
+		node=getSuiteTest().createNode(testCaseName, testCaseDescription);
 		setNode(node);
+		startApp(browser, url);
 	}
 	
 	@DataProvider(name="fetchData")

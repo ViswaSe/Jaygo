@@ -20,7 +20,7 @@ public abstract class Reporter {
 	public static ThreadLocal<ExtentTest> st=new ThreadLocal<ExtentTest>();
 	public static ThreadLocal<ExtentTest> nd=new ThreadLocal<ExtentTest>();
 	
-	public String fileName,testName,testCaseName,testCaseDescription,browser,url;
+	public String fileName,testName,testCaseName,testCaseDescription,browser,url,author,category;
 	
 	
 	public void setSuiteTest(ExtentTest suiteTest)
@@ -59,8 +59,8 @@ public abstract class Reporter {
 	{
 		suiteTest=extent.createTest(testName);
 		setSuiteTest(suiteTest);
-		//suiteTest.assignAuthor(author);
-		//suiteTest.assignCategory(category);
+		getSuiteTest().assignAuthor(author);
+		getSuiteTest().assignCategory(category);
 		return getSuiteTest();
 	}
 	

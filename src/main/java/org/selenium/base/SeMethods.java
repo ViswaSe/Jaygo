@@ -27,6 +27,7 @@ public class SeMethods extends Reporter implements Browser,Element{
 	public static ThreadLocal<RemoteWebDriver> td=new ThreadLocal<RemoteWebDriver>();
 	public static String text;
 	public WebDriverWait wait;
+	public RemoteWebDriver driver;
 	
 	public long takeSnap()
 	{	
@@ -357,14 +358,12 @@ public class SeMethods extends Reporter implements Browser,Element{
 
 	public void startApp(String browser, String url) {
 		
-		RemoteWebDriver driver;
-		
 		try 
 		{	
 			switch(browser.toLowerCase())
 			{
 				case "chrome":
-					System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver_win32/chromedriver.exe");
+					System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 					driver=new ChromeDriver();
 					setDriver(driver);
 					break;
@@ -379,7 +378,7 @@ public class SeMethods extends Reporter implements Browser,Element{
 			getDriver().get(url);
 			getDriver().manage().window().maximize();
 			getDriver().manage().timeouts().implicitlyWait(10, TimeUnit.SECONDS);
-
+			
 			System.out.println(browser+" browser invoked and maximised successfully");
 		} 
 		catch (Exception e) {
