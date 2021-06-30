@@ -1,0 +1,137 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<testng-results skipped="0" failed="1" ignored="1" total="5" passed="3">
+  <reporter-output>
+  </reporter-output>
+  <suite name="Suite" duration-ms="5418" started-at="2021-06-30T10:59:49Z" finished-at="2021-06-30T10:59:55Z">
+    <groups>
+    </groups>
+    <test name="Test" duration-ms="5418" started-at="2021-06-30T10:59:49Z" finished-at="2021-06-30T10:59:55Z">
+      <class name="org.selenium.testcases.LoginAndLogout">
+        <test-method status="PASS" signature="start()[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="start" is-config="true" duration-ms="330" started-at="2021-06-30T10:59:49Z" finished-at="2021-06-30T10:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- start -->
+        <test-method status="PASS" signature="init()[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="init" is-config="true" duration-ms="3" started-at="2021-06-30T10:59:49Z" finished-at="2021-06-30T10:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="startApplication()[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="startApplication" is-config="true" duration-ms="4124" started-at="2021-06-30T10:59:50Z" finished-at="2021-06-30T10:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="doLoginAndLogout(java.util.Map)[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="doLoginAndLogout" duration-ms="213" started-at="2021-06-30T10:59:54Z" data-provider="fetchData" finished-at="2021-06-30T10:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=crmsfa, username=DemoSalesManager}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginAndLogout -->
+        <test-method status="PASS" signature="endResult()[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="endResult" is-config="true" duration-ms="56" started-at="2021-06-30T10:59:54Z" finished-at="2021-06-30T10:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+        <test-method status="PASS" signature="startApplication()[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="startApplication" is-config="true" duration-ms="549" started-at="2021-06-30T10:59:54Z" finished-at="2021-06-30T10:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="doLoginAndLogout(java.util.Map)[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="doLoginAndLogout" duration-ms="10" started-at="2021-06-30T10:59:55Z" data-provider="fetchData" finished-at="2021-06-30T10:59:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=crmsfa, username=DemoCSR}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- doLoginAndLogout -->
+        <test-method status="PASS" signature="endResult()[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="endResult" is-config="true" duration-ms="33" started-at="2021-06-30T10:59:55Z" finished-at="2021-06-30T10:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- org.selenium.testcases.LoginAndLogout -->
+      <class name="org.selenium.testcases.CreateAccounts">
+        <test-method status="PASS" signature="provideData()[pri:0, instance:org.selenium.testcases.LoginAndLogout@109bb57]" name="provideData" is-config="true" duration-ms="1" started-at="2021-06-30T10:59:49Z" finished-at="2021-06-30T10:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideData -->
+        <test-method status="PASS" signature="provideDataForCreateAccounts()[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="provideDataForCreateAccounts" is-config="true" duration-ms="0" started-at="2021-06-30T10:59:49Z" finished-at="2021-06-30T10:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- provideDataForCreateAccounts -->
+        <test-method status="PASS" signature="init()[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="init" is-config="true" duration-ms="2" started-at="2021-06-30T10:59:49Z" finished-at="2021-06-30T10:59:49Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- init -->
+        <test-method status="PASS" signature="startApplication()[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="startApplication" is-config="true" duration-ms="4123" started-at="2021-06-30T10:59:50Z" finished-at="2021-06-30T10:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="FAIL" signature="createNewAccountInTestLeaf(java.util.Map)[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="createNewAccountInTestLeaf" duration-ms="10" started-at="2021-06-30T10:59:54Z" data-provider="fetchData" finished-at="2021-06-30T10:59:54Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=crmsfa, localname=Local 1, accountname=New Account 1, sourcevalue=Conference, title1=Leaftaps - TestLeaf Automation Platform, email=account1@testleaf.com, username=DemoSalesManager, industryvalue=Computer Software}]]>
+              </value>
+            </param>
+          </params>
+          <exception class="java.lang.NullPointerException">
+            <full-stacktrace>
+              <![CDATA[java.lang.NullPointerException
+at com.aventstack.extentreports.ExtentTest.log(ExtentTest.java:303)
+at com.aventstack.extentreports.ExtentTest.fail(ExtentTest.java:601)
+at org.selenium.utils.Reporter.reportStep(Reporter.java:96)
+at org.selenium.utils.Reporter.reportStep(Reporter.java:69)
+at org.selenium.base.SeMethods.locateElement(SeMethods.java:428)
+at org.selenium.pages.LoginPage.enterUserName(LoginPage.java:12)
+at org.selenium.testcases.CreateAccounts.createNewAccountInTestLeaf(CreateAccounts.java:27)
+at sun.reflect.NativeMethodAccessorImpl.invoke0(Native Method)
+at sun.reflect.NativeMethodAccessorImpl.invoke(Unknown Source)
+at sun.reflect.DelegatingMethodAccessorImpl.invoke(Unknown Source)
+at java.lang.reflect.Method.invoke(Unknown Source)
+at org.testng.internal.MethodInvocationHelper.invokeMethod(MethodInvocationHelper.java:124)
+at org.testng.internal.Invoker.invokeMethod(Invoker.java:583)
+at org.testng.internal.Invoker.invokeTestMethod(Invoker.java:719)
+at org.testng.internal.Invoker.invokeTestMethods(Invoker.java:989)
+at org.testng.internal.TestMethodWorker.invokeTestMethods(TestMethodWorker.java:125)
+at org.testng.internal.TestMethodWorker.run(TestMethodWorker.java:109)
+at java.util.concurrent.ThreadPoolExecutor.runWorker(Unknown Source)
+at java.util.concurrent.ThreadPoolExecutor$Worker.run(Unknown Source)
+at java.lang.Thread.run(Unknown Source)
+]]>
+            </full-stacktrace>
+          </exception> <!-- java.lang.NullPointerException -->
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountInTestLeaf -->
+        <test-method status="PASS" signature="endResult()[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="endResult" is-config="true" duration-ms="197" started-at="2021-06-30T10:59:54Z" finished-at="2021-06-30T10:59:54Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+        <test-method status="PASS" signature="startApplication()[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="startApplication" is-config="true" duration-ms="547" started-at="2021-06-30T10:59:54Z" finished-at="2021-06-30T10:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- startApplication -->
+        <test-method status="PASS" signature="createNewAccountInTestLeaf(java.util.Map)[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="createNewAccountInTestLeaf" duration-ms="28" started-at="2021-06-30T10:59:55Z" data-provider="fetchData" finished-at="2021-06-30T10:59:55Z">
+          <params>
+            <param index="0">
+              <value>
+                <![CDATA[{password=crmsfa, localname=Local 2, accountname=New Account 2, sourcevalue=Direct Mail, title1=Leaftaps - TestLeaf Automation Platform, email=account2@testleaf.com, username=DemoCSR, industryvalue=Computer Hardware}]]>
+              </value>
+            </param>
+          </params>
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- createNewAccountInTestLeaf -->
+        <test-method status="PASS" signature="endResult()[pri:0, instance:org.selenium.testcases.CreateAccounts@136e911]" name="endResult" is-config="true" duration-ms="40" started-at="2021-06-30T10:59:55Z" finished-at="2021-06-30T10:59:55Z">
+          <reporter-output>
+          </reporter-output>
+        </test-method> <!-- endResult -->
+      </class> <!-- org.selenium.testcases.CreateAccounts -->
+    </test> <!-- Test -->
+  </suite> <!-- Suite -->
+</testng-results>

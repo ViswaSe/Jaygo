@@ -365,6 +365,7 @@ public class SeMethods extends Reporter implements Browser,Element{
 				case "chrome":
 					System.setProperty("webdriver.chrome.driver", "./drivers/chromedriver.exe");
 					driver=new ChromeDriver();
+					//WebDriverManager.chromeDriver().setup();
 					setDriver(driver);
 					break;
 				
