@@ -317,7 +317,7 @@ public class SeMethods extends Reporter implements Browser,Element{
 		
 		try
 		{
-			wait.until(ExpectedConditions.visibilityOf(ele));
+			//wait.until(ExpectedConditions.visibilityOf(ele));
 			if(ele.isDisplayed())
 			{
 				reportStep("Webelement:"+getElementText(ele)+" is appeared on the webpage successfully","pass");
