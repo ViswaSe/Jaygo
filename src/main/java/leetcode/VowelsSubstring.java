@@ -4,7 +4,7 @@ public class VowelsSubstring {
 
 	public static void main(String args[])
 	{
-		String s = "cuaieuouac";
+		String s = "cuaieuouaaiec";
 		char[] ch= {'a','e','i','o','u'};
 		boolean flag = false;
 		
