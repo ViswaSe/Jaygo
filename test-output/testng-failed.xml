@@ -1,0 +1,18 @@
+<?xml version="1.0" encoding="UTF-8"?>
+<!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
+  <test thread-count="5" name="Test(failed)" parallel="classes">
+    <classes>
+      <class name="org.selenium.testcases.CreateAccounts">
+        <methods>
+          <include name="endResult"/>
+          <include name="startApplication"/>
+          <include name="createNewAccountInTestLeaf" invocation-numbers="0"/>
+          <include name="start"/>
+          <include name="provideDataForCreateAccounts"/>
+          <include name="init"/>
+        </methods>
+      </class> <!-- org.selenium.testcases.CreateAccounts -->
+    </classes>
+  </test> <!-- Test(failed) -->
+</suite> <!-- Failed suite [Suite] -->
