@@ -4,8 +4,8 @@ public class Anagram {
 
 	public static void main(String args[])
 	{
-		String s = "vidhyavishveshwar";
-		String s1 = "vishveshwarvidhya";
+		String s = "anirudhramana";
+		String s1 = "harishanirudh";
 		
 		s=s.replaceAll(" ", "");
 		s1=s1.replaceAll(" ", "");
