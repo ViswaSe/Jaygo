@@ -4,7 +4,7 @@ public class IntegerPalindrome {
 
 	public static void main(String args[])
 	{
-		int n = 1001;
+		int n = 842;
 		int count = 0;
 		int input = n;
 		
