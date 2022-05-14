@@ -3,16 +3,11 @@
 <suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
   <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.selenium.testcases.LoginAndLogout1">
+      <class name="advancedselenium.DataProviderUsingMap">
         <methods>
-          <include name="endResult"/>
-          <include name="startApplication"/>
-          <include name="doLoginAndLogout"/>
-          <include name="start"/>
-          <include name="provideData"/>
-          <include name="init"/>
+          <include name="getDataUsingMap"/>
         </methods>
-      </class> <!-- org.selenium.testcases.LoginAndLogout1 -->
+      </class> <!-- advancedselenium.DataProviderUsingMap -->
     </classes>
   </test> <!-- Default test(failed) -->
 </suite> <!-- Failed suite [Default suite] -->

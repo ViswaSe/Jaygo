@@ -1,18 +1,13 @@
 <?xml version="1.0" encoding="UTF-8"?>
 <!DOCTYPE suite SYSTEM "http://testng.org/testng-1.0.dtd">
-<suite guice-stage="DEVELOPMENT" name="Failed suite [Suite]">
-  <test thread-count="5" name="Test(failed)" parallel="classes">
+<suite guice-stage="DEVELOPMENT" name="Failed suite [Default suite]">
+  <test thread-count="5" name="Default test(failed)">
     <classes>
-      <class name="org.selenium.testcases.CreateAccounts">
+      <class name="advancedselenium.DataProviderUsingMap">
         <methods>
-          <include name="endResult"/>
-          <include name="startApplication"/>
-          <include name="createNewAccountInTestLeaf" invocation-numbers="0"/>
-          <include name="start"/>
-          <include name="provideDataForCreateAccounts"/>
-          <include name="init"/>
+          <include name="getDataUsingMap"/>
         </methods>
-      </class> <!-- org.selenium.testcases.CreateAccounts -->
+      </class> <!-- advancedselenium.DataProviderUsingMap -->
     </classes>
-  </test> <!-- Test(failed) -->
-</suite> <!-- Failed suite [Suite] -->
+  </test> <!-- Default test(failed) -->
+</suite> <!-- Failed suite [Default suite] -->
